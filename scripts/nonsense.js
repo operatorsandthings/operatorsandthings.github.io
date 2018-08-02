@@ -2,6 +2,7 @@
 $(document).ready(function() {
 	
 	$("#message_begin").fadeIn(3000);
+	$("#linebreak").clone().insertBefore("#placeholder").fadeIn(4000);
 	$("#area_main").fadeIn(3000);
 	$("#command_line").fadeIn(3000);
 	
@@ -19,14 +20,14 @@ $(document).ready(function() {
 					if(counter == 4 || counter == 9 || counter == 14 || counter == 17 || counter == 24) {	
 						//magic numbers, do not touch
 						$("#linebreak").clone().insertBefore("#placeholder").fadeIn(3000);
-						$(".message_r").eq(Math.floor(Math.random()*$(".message_r").length)).clone().insertBefore("#placeholder").fadeIn(3500);
+						
 						$("#linebreak").clone().insertBefore("#placeholder").fadeIn(4000);
 					}
 			
 			    counter++;
 				
 			} else {
-				$("#message_final").clone().insertBefore("#placeholder").fadeIn(3000);
+				
 				$(".message_r").eq(Math.floor(Math.random()*$(".message_r").length)).clone().insertBefore("#placeholder").fadeIn(3000);
 			}
 			
