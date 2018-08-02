@@ -1,7 +1,4 @@
 
-
-
-
 $(document).ready(function() {
 	
 	$("#message_begin").fadeIn(3000);

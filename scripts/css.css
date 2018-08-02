@@ -1,3 +1,6 @@
+.message { 
+    display: none;
+}
 
 @font-face {
         font-family: "Lucida Console, monospace";
